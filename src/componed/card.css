@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+.card {
+    border-radius:10px;
+    border:1px solid aqua;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 10px;
+    background-color: rgb(206, 234, 244);
+  
+}
+img {
+    width: 250px;
+    height: 250px;
+    border-radius:20px;
+    margin:15px;
+}
+span  {
+ color:blue;
+ margin: 10px;
+}
+p {
+    margin: 200px auto;
+    color: white;
+    font-size: 64px;
+
+}
